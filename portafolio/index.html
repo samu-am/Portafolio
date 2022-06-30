@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Personal Portafolio | Responsive Website Design</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="toggle" onclick="toggleMenu();"></div>
+    
+    <section class="banner" id="home">
+        <div class="imgSidebar">
+            <img src="images/bg.jpg">
+        </div>
+        <div class="contentBx">
+            <h5 class="logoText">My_portafolio</h5>
+            <div>
+                <h4><span>Hello</span> I'm</h4>
+                <h2>Samuel Araujo</h2>
+                <h4>I'm a <> Web Developer.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, molestiae excepturi dicta 
+                adipisci corporis, pariatur aliquam iure culpa sapiente suscipit nesciunt deleniti ipsam beatae. 
+                Cum repudiandae accusantium quos quia consequatur!</p>
+                <a href="#" class="btn">About me</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.toggle');
+            menuToggle.classList.toggle('active')
+        }
+    </script>
+    
+</body>
+</html>
