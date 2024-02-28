@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
@@ -7,63 +7,65 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <!-- <header>
+        <a href="#" class="logo"><img src="images/omegalogo.png" width="80px" height="80px"></a>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Acerca de mi</a></li>
+                <li><a href="#services">Conocimientos</a></li>
+                <li><a href="#work">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header> -->
+
     <div class="toggle" onclick="toggleMenu();"></div>
-    <section class="portada" id="portada">
-        <div class="encabezado">
-            <h1 id="titulo"><span>My </span><span>portafolio</span></h1>
-        </div>
-    </section>
     <section class="banner" id="home">
         <div class="imgSidebar">
-            <img src="images/bg.jpg">
+            <img id="foto" src="images/puedefuncionar.png">
         </div>
         <div class="contentBx">
-            <h5 class="logoText">My_portafolio</h5>
-            <div>
-                <h4><span>Hello</span> I'm</h4>
+            <div id="name">
+                <h5 class="logoText">Mi_portafolio</h5>
+                <h4><span>Hola</span> soy</h4>
                 <h2>Samuel Araujo</h2>
-                <h4>I'm a <> Web Developer.</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, molestiae excepturi dicta 
-                adipisci corporis, pariatur aliquam iure culpa sapiente suscipit nesciunt deleniti ipsam beatae. 
-                Cum repudiandae accusantium quos quia consequatur!</p>
-                <a href="#" class="btn">About me</a>
+                <h4>Estudiante de Desarrollo de Aplicaciones Web.</h4>
+                <a href="#about" class="btn">Acerca de mi</a><br>
+                
             </div>
-            <ul class="sci">
-                <li><a href="#"><img src="images/facebook.png"></a></li>
-                <li><a href="#"><img src="images/twitter.png"></a></li>
-                <li><a href="#"><img src="images/instagram.png"></a></li>
+            
+            <ul class="sci" id="sci">
+                <li><a href="#" style="--i:12;"><img src="images/facebook.png"></a></li>
+                <li><a href="#" style="--i:13;"><img src="images/twitter.png"></a></li>
+                <li><a href="https://www.instagram.com/samu.a.m_22/" style="--i:14;"><img src="images/instagram.png"></a></li>
             </ul>
+        </div>
+        <div class="imgSidebar2">
+            <img src="images/quizas.png">
         </div>
     </section>
 
     <section class="about" id="about">
+        
+        <!-- <img src="img/stars.png" id="lado_izquierdo"> -->
         <div class="title white">
-            <h2>About us</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis similique, explicabo ab 
-            nisi eaque obcaecati porro delectus? Accusamus dolore, rerum asperiores laborum eaque obcaecati 
-            fuga, dolores excepturi porro ut placeat!</p>
+            <h2>Acerca de mi</h2>
+            <p>Desarrollador Web Dinámico y Proactivo</p>
         </div>
         <div class="content">
             <div class="textBx">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto repellat voluptatum corrupti qui 
-                vitae animi laudantium incidunt dignissimos, cupiditate ratione atque consequatur eveniet aspernatur 
-                necessitatibus deserunt adipisci aliquid officiis aperiam. 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto repellat voluptatum corrupti qui 
-                vitae animi laudantium incidunt dignissimos, cupiditate ratione atque consequatur eveniet aspernatur 
-                necessitatibus deserunt adipisci<br><br> aliquid officiis aperiam.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto repellat voluptatum corrupti qui 
-                vitae animi laudantium incidunt dignissimos, cupiditate ratione atque consequatur eveniet aspernatur 
-                necessitatibus deserunt adipisci aliquid officiis aperiam.</p>
+                <p>Con 2 años de experiencia en una empresa especializada en desarrollos a medida, soy un desarrollador web joven y entusiasta, con una pasión innata por aprender y crecer profesionalmente. Poseo una notable flexibilidad y una capacidad excepcional para adaptarme a entornos de trabajo dinámicos. Mi capacidad para absorber nuevos conocimientos rápidamente, combinada con una iniciativa incansable y una actitud proactiva, me ha permitido destacar en proyectos diversos y desafiantes. Soy una persona altamente activa, impulsada por el deseo de superar expectativas y contribuir al éxito de cada proyecto en el que participo.</p>
             </div>
             <div class="imgbx">
-                <img src="images/bg1.jpg">
+                <img src="images/imagen2.JPG">
             </div>
         </div>
     </section>
 
     <section class="services" id="services">
         <div class="title">
-            <h2>Our Services</h2>
+            <h2>Conocimientos</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="content">
@@ -114,7 +116,7 @@
 
     <section class="work" id="work">
         <div class="title">
-            <h2>Recent Work</h2>
+            <h2>Proyectos</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="content">
@@ -187,7 +189,7 @@
 
     <section class="contact" id="contact">
         <div class="title white">
-            <h2>Contact Us</h2>
+            <h2>Contáctame</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="contactForm">
@@ -219,15 +221,65 @@
             </div>
         </div>
     </section>
+    
+    <div class="copyright">
+        <p>Copyright &copy; 2022 Samuel Araujo. All Right Reserved.</p>
+    </div>
 
     <div class="sidebar">
-        <ul class="menu">
-            <li><a href="#home" onclick="toggleMenu();" data-text="Home">Home</a></li>
-            <li><a href="#about" onclick="toggleMenu();" data-text="About">About</a></li>
-            <li><a href="#services" onclick="toggleMenu();" data-text="Home">Services</a></li>
-            <li><a href="#work" onclick="toggleMenu();" data-text="Work">Work</a></li>
-            <li><a href="#contact" onclick="toggleMenu();" data-text="Contact">Contact</a></li>
-        </ul>
+        <div class="menu">
+            <ul>
+    
+                <li><a href="#home" onclick="toggleMenu();" data-text="Inicio">Inicio</a></li>
+                <li><a href="#about" onclick="toggleMenu();" data-text="Acerca de mi">Acerca de mi</a></li>
+                <li><a href="#services" onclick="toggleMenu();" data-text="Conocimientos">Conocimientos</a></li>
+                <li><a href="#work" onclick="toggleMenu();" data-text="Proyectos">Proyectos</a></li>
+                <li><a href="#contact" onclick="toggleMenu();" data-text="Contacto">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="imgSidebar2">
+            <img src="images/fondo_menu.png">
+        </div>
+        <!-- <div class="container">
+            <div class="bubbles">
+                <span style="--i:20;"></span>
+                <span style="--i:12;"></span>
+                <span style="--i:14;"></span>
+                <span style="--i:22;"></span>
+                <span style="--i:15;"></span>
+                <span style="--i:16;"></span>
+                <span style="--i:21;"></span>
+                <span style="--i:13;"></span>
+                <span style="--i:19;"></span>
+                <span style="--i:20;"></span>
+                <span style="--i:19;"></span>
+                <span style="--i:12;"></span>
+                <span style="--i:15;"></span>
+                <span style="--i:24;"></span>
+                <span style="--i:25;"></span>
+                <span style="--i:15;"></span>
+                <span style="--i:23;"></span>
+                <span style="--i:11;"></span>
+                <span style="--i:11;"></span>
+                <span style="--i:22;"></span>
+                <span style="--i:21;"></span>
+                <span style="--i:27;"></span>
+                <span style="--i:11;"></span>
+                <span style="--i:17;"></span>
+                <span style="--i:14;"></span>
+                <span style="--i:18;"></span>
+                <span style="--i:27;"></span>
+                <span style="--i:11;"></span>
+                <span style="--i:17;"></span>
+                <span style="--i:12;"></span>
+                <span style="--i:18;"></span>
+                <span style="--i:13;"></span>
+                <span style="--i:19;"></span>
+                <span style="--i:20;"></span>
+                <span style="--i:19;"></span>
+                <span style="--i:12;"></span>
+            </div>
+        </div> -->
     </div>
 
     <script>
@@ -237,6 +289,16 @@
             menuToggle.classList.toggle('active');
             sidebar.classList.toggle('active');
         }
+        
+        let name = document.getElementById('name');
+        let sci = document.getElementById('sci');
+        
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            name.style.marginLeft =  value * 0.25 + 'px';
+            sci.style.marginLeft =  value * 0.25 + 'px';
+        })
     </script>
     
 </body>
